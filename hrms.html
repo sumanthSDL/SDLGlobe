@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>SDLGlobe | HRMS</title>
+	<style>
+		.service-block-two .inner-box:before {
+			position: absolute;
+			content: '';
+			left: 0px;
+			bottom: 0px;
+			width: 100%;
+			height: 50%;
+			opacity: 0;
+			background-color: #F5F5F5 !important;
+			-webkit-transition: all 600ms ease;
+			-ms-transition: all 600ms ease;
+			-o-transition: all 600ms ease;
+			-moz-transition: all 600ms ease;
+			transition: all 600ms ease;
+		}
+
+		.service-block-two .inner-box:hover::before {
+			height: 100%;
+			opacity: none !important;
+		}
+
+		.service-block-two .inner-box:hover .icon-box,
+		.service-block-two .inner-box:hover h5 a,
+		.service-block-two .inner-box:hover .text {
+			color: #000000 !important;
+		}
+		@media only screen and (max-width: 400px) {
+  div{
+		overflow:hidden;
+	}
+}
+	</style>
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@300;600;700;800;900&display=swap"
+		rel="stylesheet">
+
+	<!-- Color Switcher Mockup -->
+	<link href="css/color-switcher-design.css" rel="stylesheet">
+
+	<!-- Color Themes -->
+	<link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+
+	<link rel="shortcut icon" href="images/favicon.webp" type="image/x-icon">
+	<link rel="icon" href="images/favicon.webp" type="image/x-icon">
+
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body class="hidden-bar-wrapper">
+
+	<div class="page-wrapper">
+
+		<!-- Preloader -->
+		<div class="preloader-2"></div>
+
+		<!-- Main Header-->
+		<header class="main-header header-style-one">
+
+			<!-- Header Top -->
+			<div class="header-top">
+				<div class="auto-container">
+					<div class="clearfix">
+						<!-- Top Left -->
+						<div class="top-left">
+							<!-- Info List -->
+							<ul class="info-list">
+								<li><a href="mailto:info@sdlglobe.com"><span
+											class="icon flaticon-email"></span>info@sdlglobe.com</a></li>
+								<li><a href="tel:+918035893531" id="num"><span
+											class="icon flaticon-telephone"></span>+91 8035893531/ +91 8035893532 </a></li>
+							</ul>
+						</div>
+
+						<!-- Top Right -->
+						<div class="top-right pull-right">
+							<!-- Social Box -->
+							<ul class="social-box">
+								<li><a href="https://www.facebook.com/SmartDriveLabs" class="fa fa-facebook-f"></a></li>
+								<li><a href="https://twitter.com/smartdrivelabs" class="fa fa-twitter"></a></li>
+								<li><a href="https://www.instagram.com/sdlglobe/" class="fa fa-instagram"></a></li>
+								<li><a href=" https://www.linkedin.com/company/sdlglobe/" class="fa fa-linkedin"></a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!--Header-Upper-->
+			<div class="header-upper">
+				<div class="auto-container clearfix">
+
+					<div class="pull-left logo-box">
+						<div class="logo"><a href="index.html"><img src="images/logo.webp" alt="SDLGlobe-logo" title=""
+									width="180" height="60" style="position:relative; right:0px"></a></div>
+					</div>
+
+					<div class="nav-outer clearfix">
+						<!--Mobile Navigation Toggler-->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu" style="color: white"></span>
+						</div>
+						<!-- Main Menu -->
+						<nav class="main-menu navbar-expand-md">
+							<div class="navbar-header">
+								<!-- Toggle Button -->
+								<button class="navbar-toggler" type="button" data-toggle="collapse"
+									data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+									aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class="">
+										<a href="index.html" class="nav-menu">Home</a>
+									</li>
+									<li class=" dropdown">
+										<a href="about.html" class="nav-menu">About </a>
+										<ul>
+											<li><a href="about.html">About Us & Our History</a></li>
+											<li><a href="team.html">Management Team</a></li>
+											<li><a href="awards.html">Awards & Recognition</a></li>
+											<li>
+												<a href="vision-mission.html">Vision & Mission</a>
+											</li>
+											<li><a href="testimonial.html">Testimonial</a></li>
+											<li>
+												<a href="blog-post1.html">Our Blogs</a>
+											</li>
+										</ul>
+									</li>
+									<li class="current dropdown">
+										<a href="#" class="nav-menu">Products</a>
+
+										<ul>
+											<li><a href="hrms.html">HRMS</a></li>
+											<li><a href="schoolERP.html">School ERP</a></li>
+											<li><a href="erp.html">ERP</a></li>
+
+										</ul>
+									</li>
+									<li class="">
+										<a href="services.html" class="nav-menu">Services</a>
+										<ul>
+
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="" class="nav-menu">portfolio</a>
+										<ul>
+											<li>
+												<a href="portfolio.html">portfolio</a>
+											</li>
+											<li>
+												<a href="solutions.html">Solutions</a>
+											</li>
+											<!-- <li><a href="projects-detail.html">Projects-details</a></li> -->
+										</ul>
+									</li>
+									<li class="">
+										<a href="clients.html" class="nav-menu">Clients</a>
+
+									</li>
+									<li class="dropdown">
+										<a href="" class="nav-menu">Contact us</a>
+
+										<ul>
+											<li><a href="contact.html">Contact us</a></li>
+											<li><a href="partner.html">Partners</a></li>
+
+											<!-- <li><a href="projects-detail.html">Projects-details</a></li> -->
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</nav>
+
+						<!-- Main Menu End-->
+						<div class="outer-box clearfix">
+
+
+							<div class="btn-box">
+								<a href="contact.html" class="theme-btn btn-style-one"><span class="txt">Free
+										Consulting</span></a>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!--End Header Upper-->
+
+			<!-- Sticky Header  -->
+			<div class="sticky-header">
+				<div class="auto-container clearfix">
+					<!--Logo-->
+					<div class="logo pull-left">
+						<a href="index.html" title=""><img src="images/logo-small.webp" alt="SDLGlobe-logo" title=""
+								width="185" height="60"></a>
+					</div>
+					<!--Right Col-->
+					<div class="pull-right">
+						<!-- Main Menu -->
+						<nav class="main-menu">
+							<!--Keep This Empty / Menu will come through Javascript-->
+						</nav><!-- Main Menu End-->
+
+						<!-- Main Menu End-->
+						<div class="outer-box clearfix">
+							<div class="btn-box">
+								<a href="contact.html" class="theme-btn btn-style-one"><span class="txt">Free
+										Consulting</span></a>
+							</div>
+
+							<div class="nav-btn navSidebar-butto mobile-nav-toggler"><span
+									class="icon flaticon-menu"></span></div>
+						</div>
+
+					</div>
+				</div>
+			</div><!-- End Sticky Menu -->
+
+			<!-- Mobile Menu  -->
+			<div class="mobile-menu">
+				<div class="menu-backdrop"></div>
+				<div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+
+				<nav class="menu-box">
+					<div class="nav-logo"><a href="index.html"><img src="images/logo-small.webp" alt="SDLGlobe-logo" title="" class="white" width="180px" style="position:relative; top:10px"></a></div>
+					<div class="menu-outer">
+						<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+					</div>
+				</nav>
+			</div><!-- End Mobile Menu -->
+
+		</header>
+		<!-- End Main Header -->
+
+	
+
+		<!--Page Title-->
+		<section class="page-title">
+			<div class="pattern-layer-one" style="background-image: url(images/background/pattern-16.webp)"></div>
+			<div class="auto-container">
+				<h2>Smart H2R</h2>
+				<ul class="page-breadcrumb">
+					<li><a href="index.html">home</a></li>
+					<li>HRMS</li>
+				</ul>
+			</div>
+		</section>
+		<!--End Page Title-->
+
+		<!-- Sidebar Page Container -->
+		<div class="sidebar-page-container">
+
+			<div class="auto-container">
+				<!-- <div class="content-side col-lg-8 col-md-12 col-sm-12" > -->
+				<div class="news-detail">
+					<div class="inner-box">
+						<div class="upper-box">
+							<h3 style="text-align: center;"><span style="color:#f1c825;">Smart H2R:</span> Streamline your HR processes with Smart H2R HRMS software.</h3>
+							<ul class="post-meta">
+								<!-- <li><span class="icon flaticon-comment"></span>3 comments</li> -->
+								<!-- <li><span class="icon flaticon-user"></span>Admin</li> -->
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/resource/HRMS.webp" alt="SDLGlobe-product" width="1000px"
+								style="filter: drop-shadow(2px 4px 8px hsla(0, 0%, 0%, 0.5))" />
+							<!-- <div class="post-date">22 <span>DEC</span></div> -->
+						</div>
+
+						<div class="lower-content">
+							<h4>Product Description</h4>
+							<p>SmartH2R modules represent the cutting-edge intersection between Human Resource
+								Management (HRM) and Information Technology (IT). By bringing together the best of both
+								worlds, SmartH2R offers a comprehensive HRMS product that streamlines and optimizes
+								every aspect of HR operations.</p>
+							<p>Our SmartH2R HRMS solution is designed to cover a wide range of functionalities, spanning
+								the entire gamut of daily and dependent activities performed by HR departments. From
+								managing the onboarding process, to tracking employee training and development, to
+								processing payroll, leave, travel, and appraisal, our product automates all of these
+								critical HR functions, making it easier for HR teams to manage their workloads
+								efficiently.</p>
+							<p></p>
+							<h4>“Innovative solutions to move your business forward.”</h4>
+						</div>
+					</div>
+				</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- End Sidebar Page Container -->
+
+	<section class="services-section-two margin-top">
+		<div class="auto-container">
+			<div class="upper-box" style="position: relative;
+			text-align: center;
+			border-radius: 15px;
+			margin-left: -115px;
+			margin-right: -115px;
+			padding: 0px 0px 0px;
+			background-color: #ffffff !important;">
+				<div class="sec-title light centered">
+					<div class="title">WHO WE </div>
+					<h2>
+						We deal with the aspects of <br />
+						professional IT Services
+					</h2>
+				</div>
+			</div>
+			<div class="inner-container">
+				<div class="row clearfix">
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12" >
+						<div class="inner-box cards wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms" id="hrms" >
+							<div class="icon-box" >
+								<span class=""><img src="images/resource/HRMS/group.webp" style="width:70px"
+										alt="SDLGlobe-group" /></span>
+							</div>
+							<h5><a href="empty:" style="font-size:19px;">Recruitement Management</a></h5>
+							<div class="text" style="text-align:left;">
+								<br>
+							</div>
+						</div>
+					</div>
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/onboarding.webp" style="width:70px"
+										alt="SDLGlobe-onboarding" /></span>
+							</div>
+							<h5><a href="empty:">On Boarding</a></h5>
+							<div class="text" style="text-align:left;">
+								 <br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/user.webp" alt="SDLGlobe-user"
+										style="width:70px" /></span>
+							</div>
+							<h5><a href="empty:">Employee Databank</a></h5>
+							<div class="text" style="text-align:left;">
+								<br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/monitoring.webp" alt="SDLGlobe-monitoring"
+										style="width:70px" /></span>
+
+							</div>
+							<h5><a href="empty:">Dashboard Management</a></h5>
+							<div class="text" style="text-align:left;">
+								<br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/information.webp" style="width:70px"
+										alt="SDLGlobe-information" /></span>
+							</div>
+							<h5><a href="empty:">Information Management</a></h5>
+							<div class="text" style="text-align:left;">
+								<br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/self-service.webp" style="width:70px"
+										alt="SDLGlobe-self-service" /></span>
+							</div>
+							<h5><a href="empty:">Employee Selfservice</a></h5>
+							<div class="text">
+								<br> 
+							</div>
+						</div>
+					</div>
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/money.webp" style="width:70px"
+										alt="SDLGlobe-money" /></span>
+							</div>
+							<h5><a href="empty:">Payroll Management
+								</a></h5>
+							<div class="text">
+							 <br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/passenger.webp" style="width:70px"
+										alt="passenger" /></span>
+							</div>
+							<h5><a href="empty:">Travel Management</a></h5>
+							<div class="text">
+								<br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/performance.webp" style="width:70px"
+										alt="performance" /></span>
+							</div>
+							<h5><a href="empty:">Appraisal Management</a></h5>
+							<div class="text">
+								<br> 
+							</div>
+						</div>
+					</div>
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/leave.webp" style="width:70px"
+										alt="leave" /></span>
+
+							</div>
+							<h5><a href="empty:">Leave Management</a></h5>
+							<div class="text">
+								 <br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/user (2).webp" style="width:70px"
+										alt="user" /></span>
+							</div>
+							<h5><a href="empty:">Attendance Management</a></h5>
+							<div class="text">
+								<br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/traning.webp" style="width:70px"
+										alt="traning" /></span>
+							</div>
+							<h5><a href="empty:">Traning Management</a></h5>
+							<div class="text">
+								<br> 
+							</div>
+						</div>
+					</div>
+					<div class="service-block-two col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box cards wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="icon-box">
+								<span class=""><img src="images/resource/HRMS/exit.webp" style="width:70px"
+										alt="exit" /></span>
+							</div>
+							<h5><a href="empty:">Exit Management</a></h5>
+							<div class="text">
+								<br> 
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Block Two -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Info Section -->
+	<section class="info-section" style="background-image: url(images/background/6.webp)">
+		<div class="auto-container">
+			<div class="row clearfix">
+
+				<!-- Logo Column -->
+				<div class="logo-column col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-column">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo-2.webp" alt="SDLGlobe-logo" /></a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Info Column -->
+				<div class="info-column col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-column">
+						<div class="icon-box"><span class="flaticon-pin"></span></div>
+						<ul>
+							<li><strong>Address</strong></li>
+							<li   >SDLGlobe Technologies Pvt. Ltd. <br>#399, "SS Prime", Double Road, AGB Layout, Hesaraghatta
+								Main Road, Bengaluru - 560090, Karnataka, India.</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Info Column -->
+				<div class="info-column col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-column">
+						<div class="icon-box"><span class="flaticon-phone-call"></span></div>
+						<ul>
+							<li><strong>Phone</strong></li>
+							<li>+91 8035893531<br> +91 8035893532</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Info Column -->
+				<div class="info-column col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-column">
+						<div class="icon-box"><span class="flaticon-email-1"></span></div>
+						<ul>
+							<li><strong>E-Mail</strong></li>
+							<li>info@sdlglobe.com</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- End Info Section -->
+
+	<!-- Main Footer -->
+	<footer class="main-footer style-three">
+		<div class="pattern-layer-three" style="background-image: url(images/background/pattern-14.webp)"></div>
+		<div class="pattern-layer-four" style="background-image: url(images/background/pattern-15.webp)"></div>
+		<!--Waves end-->
+		<div class="auto-container">
+			<!--Widgets Section-->
+			<div class="widgets-section">
+				<div class="row clearfix">
+
+					<!-- Footer Column -->
+					<div class="footer-column col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget logo-widget">
+							<h5>About SDL Globe</h5>
+							<div class="text">SDLGlobe is one of the leading Software Development Company founded in 2009, providing Enterprise Solutions and Consulting Services.
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="footer-column col-lg-3 col-md-6 col-sm-12">
+						<div class="footer-widget links-widget">
+							<h5>Quick Links</h5>
+							<ul class="list-link">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="hrms.html">Products</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="clients.html">Clients</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="privacy-policy.html">privacy-policy</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="footer-column col-lg-5 col-md-6 col-sm-12">
+						<div class="footer-widget subscribe-widget">
+							<h5>Subscribe Newsletter</h5>
+							<div class="text">Sign up today for hints, tips and <br> the latest product news</div>
+							<!--Emailed Form-->
+							<div class="emailed-form">
+								<form action="https://formsubmit.co/info@sdlglobe.com" method="POST">
+									<div class="form-group">
+										<input type="email" name="email" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@(?:[a-zA-Z0-9-]+\.)*(com|in|org|info|co|io)$" oninvalid="setCustomValidity('Please enter a valid email address with domain extensions .com, .in or .org')" oninput="setCustomValidity('')" />
+										<button type="submit" class="theme-btn">Subscribe Now <input type="hidden" name="_next" value="https://sdlglobe.com/index.html"></button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Footer Bottom -->
+		<div class="footer-bottom">
+			<div class="auto-container">
+				<div class="row clearfix">
+					<!-- Column -->
+					<div class="column col-lg-6 col-md-12 col-sm-12">
+						<div class="copyright">Copyright &copy; 2023 SDLGlOBE Technologies Pvt Ltd. All
+							Rights Reserved.
+						</div>
+					</div>
+					<!-- Column -->
+					<div class="column col-lg-6 col-md-12 col-sm-12">
+						<ul class="footer-nav">
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="privacy-policy.html">privacy-policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+
+	</div>
+	<!--End pagewrapper-->
+
+	
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/tilt.jquery.min.js"></script>
+	<script src="js/jquery.paroller.min.js"></script>
+	<script src="js/owl.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/nav-tool.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/color-settings.js"></script>
+
+</body>
+<script type='text/javascript'>
+	(function (I, L, T, i, c, k, s) {
+		if (I.iticks) return;
+		I.iticks = {
+			host: c,
+			settings: s,
+			clientId: k,
+			cdn: L,
+			queue: []
+		};
+		var h = T.head || T.documentElement;
+		var e = T.createElement(i);
+		var l = I.location;
+		e.async = true;
+		e.src = (L || c) + '/client/inject-v2.min.js';
+		h.insertBefore(e, h.firstChild);
+		I.iticks.call = function (a, b) {
+			I.iticks.queue.push([a, b]);
+		};
+	})(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com',
+		'jk62eWXsSzarDMbT2_c', {});
+</script>
+</html>
